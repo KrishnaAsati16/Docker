@@ -1,0 +1,6 @@
+services:
+ img:
+ build: .
+ container_name: my_container
+ parts:
+ - 1000:10000
